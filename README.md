@@ -1,7 +1,6 @@
-Automagically tag your songs with broken/missing id3 tags
+##Automagically tag your songs with broken/missing id3 tags
 
-Setup:
-
+###Setup:
 1. cd echoprint-codegen/src
 2. make
 3. sudo apt-add-repository ppa:jon-severinsson/ffmpeg
@@ -9,12 +8,12 @@ Setup:
 5. sudo apt-get install libboost-dev
 6. sudo apt-get install mp3info
 
-Usage: 
+###Usage: 
 
 1. python [songpath]
 7. follow the onscreen instructions
 
-Todo:
+###Todo:
 
 * simplify setup
 * support directories/lists
